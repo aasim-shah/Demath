@@ -95,7 +95,10 @@ section {
     max-width: 600px;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(173, 32, 32, 0.5);
+    /* box-shadow: 0 4px 8px rgba(173, 32, 32, 0.5); */
+    background-color: #ebe8e8c1;
+    /* border-radius: 8px; */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 form {
@@ -189,12 +192,23 @@ footer {
 @media only screen and (max-width: 768px) {
     .container {
         flex-direction: column;
+        width: 94%;
     }
     .headingT{
         font-size: 1.8rem;
         font-weight: 600;
     }
-
+    .welcome-text{
+        width: 80%;
+        margin: 0px auto;
+    }
+    .card{
+        width: 15rem !important;
+    }
+    .close-button{
+        background-color: var(--primary-color);
+        background: var(--primary-color);
+    }
     .box {
         width: 100%;
     }

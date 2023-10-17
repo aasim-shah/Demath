@@ -42,6 +42,8 @@
 
     .nav-list li {
         margin: 10px 0;
+        text-align: start;
+        padding-left: 2rem;
     }
 
     .menu-button {
@@ -50,11 +52,15 @@
 
     .close-button {
         display: block; /* Display the close button on smaller screens */
-        background: #fff;
-        padding: 4px 20px;
+        /* background: #fff; */
+        /* padding: 4px 20px; */
+        width: 2.4rem;
+        height: 2.4rem;
         margin-left: auto;
+        /* box-shadow: 0px 0px 3px rgba(rgb(89, 18, 18 ) , 1); */
+        color: white;
         margin-right: auto;
-        border-radius: 5px;
-        border: none;
+        border-radius: 50%;
+        background-color:  rgb(132, 44, 44);
     }
 }
