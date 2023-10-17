@@ -203,7 +203,7 @@ footer {
         margin: 0px auto;
     }
     .card{
-        width: 15rem !important;
+        /* width: 15rem !important; */
     }
     .close-button{
         background-color: var(--primary-color);
